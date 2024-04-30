@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calulator</title>
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <h1 class="title">Calculator</h1>
+    <hr>
+    <div class="cals">
+        <div class="display">
+            <h1 id="result">Result :</h1>
+        </div>
+        <div class="numbers">
+            
+                <button class="1" value="1" onclick="display(1)">1</button>                  <button class="1" value="2" onclick="display(2)">2</button>                  <button class="1" value="3" onclick="display(3)">3</button>   <button id="+" value="+" onclick="display('+')">+</button> <br>              
+                <button class="1" value="4" onclick="display(4)">4</button>                  <button class="1" value="5" onclick="display(5)">5</button>                  <button class="1" value="6" onclick="display(6)">6</button>   <button id="-" value="-">-</button onclick="display('-')"><br>
+                <button class="1" value="7" onclick="display(7)">7</button>                  <button class="1" value="8" onclick="display(8)">8</button>                  <button class="1" value="9" onclick="display(9)">9</button>   <button id="*" value="*" onclick="display('*')">*</button><br>
+                <button id="/" value="/" onclick="display('/')">/</button>                  <button id="%" value="%" onclick="display('%')">%</button>                  <button id="Enter" value="clear" onclick="Clear()">clear</button>   <button id="=" value="=" onclick="result()">=</button><br>
+        
+        </div>
+
+    </div>
+    <script src="./js/common.js"></script>
+</body>
+</html>

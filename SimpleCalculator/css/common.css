@@ -1,0 +1,54 @@
+.title{
+    text-align: center;
+    text-shadow: 1px 1px red;
+    color: rgba(0, 0, 0, 0.847);
+}
+hr{
+    width:50%;
+    text-align: center;
+    
+}
+.cals{
+    width: 25%;
+    height: 55vh;
+    background-color: rgba(199, 199, 199, 0.726);
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 10px 3px blue;
+    margin:5rem auto
+}
+button{
+    margin: 0.7rem 0.5rem;
+   width:3.5rem;
+   height: 2rem;
+   background-color: black;
+   color: white;
+   font-weight: bolder;
+    font-size: large;
+   padding:0.4rem;
+   border: 1px solid white;
+   border-radius: 0.5rem;
+   
+   
+    
+}
+button:hover{
+    box-shadow: 0px 0px 2px 2px white;
+    /* width: 3.6rem;
+    height: 2.1rem; */
+}
+.display{
+    width: 80%;
+    height: 15vh;
+    background-color: white;
+    margin: 0.9rem auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.numbers{
+    margin:1.4rem auto;
+    width: 85%;
+}
+.display h1{
+    text-align: right;
+}
