@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librarary Book Form</title>
+    <link rel="stylesheet" href="./CSS/common.css">
+</head>
+<body>
+    <div id="formPage">
+        <div id="header">
+            <img src="./images/logo.png" alt=""><span>Library Portal</span><span id="book">Books</span>
+        </div>
+        <div id="form">
+            <h3>Add new Book</h3>
+            <label for="">Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="" id="department">
+                <option value="IT"  id="IT">IT</option>
+                <option value="ECE" id="ECE">ECE</option>
+                <option value="CSE" id="CSE">CSE</option>
+                <option value="EEE" id="EEE">EEE</option>
+            </select><br>
+            <label for="">Book&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="book" onchange="bookcheck()"><span id="bookmsg">.</span><br>
+            <label for="">Author Email </label>
+            <input type="text" id="author"><p id=Authormsg></p><br>
+            <label for="">Author Name  </label>
+            <input type="text" id="Aname"><span id="Anamemsg"></span><br>
+            <label for="">Published &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </label>
+            <input type="text" id="year"><span id="yearmsg"></span><br>
+            <label for="">Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       </label>
+            <input type="text" id="price"><span id="pricemsg"></span><br>
+            <br>
+            <br>
+            <button type="button" onclick="save()">Save</button><button type="button" onclick="">Cancel</button><button type="button" onclick="show()">Show</button>
+           
+            
+        </div>
+        <div id="footer">
+            <p>Copyright&copy;2019 - present Syncfusion</p>
+        </div>
+    </div>
+    <div id="table">
+        <div id="header">
+            <img src="./images/logo.png" alt=""><span>Library Portal</span><span id="book">Books</span>
+        </div>
+        <div id="content">
+            <h3>Add new Book</h3>
+            <label for="">Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <span></span>
+            <br>
+            <label for="">Book&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <span id="bookshow"></span><br>
+            <label for="">Author Email </label>
+            <span id="authorshow"></span><br>
+            <label for="">Author Name  </label>
+            <span id="Anameshow"></span><br>
+            <label for="">Published &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </label>
+            <span id="priceshow"></span><br>
+            <label for="">Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       </label>
+            
+            <span></span>
+            <br>
+            <button onclick="back()">Back</button>
+        </div>
+        <div id="footer">
+            <p>Copyright&copy;2019 - present Syncfusion</p>
+        </div>
+        
+        
+        
+    </div>
+    <script src="./JS/common.js"></script>
+    
+</body>
+</html>

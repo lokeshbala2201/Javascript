@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#formPage{
+    width: 80%;
+    margin: 0 auto;
+}
+#table{
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+#header {
+    width: 75%;
+    border: 3px solid black;
+    padding: 0.5rem;
+}
+#footer{
+    width: 75%;
+    border: 3px solid black;
+}
+#form {
+    width: 75%;
+    border-left:  3px solid black;
+    border-right: 3px solid black;
+    padding: 1.5rem;
+    
+}
+#header img{
+    width:36px;
+    height: 18px;
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+}
+#header span{
+    margin-right: 2rem;
+    vertical-align:baseline;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+#book{
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
+#form select{
+    width: 30%;
+    height: 25px;
+}
+#form h3{
+    margin-bottom: 1.3rem;
+}
+#content h3{
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+}
+#content{
+    width: 75%;
+    border-left:  3px solid black;
+    border-right: 3px solid black;
+    padding: 1.5rem; 
+}
+#form input{
+    margin: 0.5rem 0;
+    width: 30%;
+    height: 25px;
+}
+#content label{
+    padding: 0.5em;
+    display: inline-block;
+}
+#form button{
+    margin-right: 1.7rem;
+    width: 5rem;
+    text-align: left;
+
+}
+#footer p{
+    margin-left: 1rem;
+    padding: 0.5rem 0;
+}
